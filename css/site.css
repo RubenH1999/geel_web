@@ -8,10 +8,10 @@ body {
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 .right {
-    float: left;
-    
-    
+    float: left;   
 }
+.midden
+{float:center;}
 div.img {
     margin: 5px;
     border: 1px solid #ccc;
