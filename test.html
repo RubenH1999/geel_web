@@ -7,6 +7,11 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/site.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src='reken.js'></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
     <title>Geel</title>
 
@@ -25,25 +30,54 @@
   </head>
 
   <body>
-<div class="container">
+
+    <div class="container">
       <div class="header clearfix">
         <nav>
           <ul class="nav nav-pills pull-right plox">
             <li role="presentation"><a href="index.html">Home</a></li>
             <li role="presentation"><a href="about.html">About</a></li>
-            <li role="presentation"><a href="contact.html">Contact</a></li>
+            <li role="presentation" ><a href="contact.html">Contact</a></li>
             <li role="presentation" class="active"><a href="test.html">Test</a></li>
             
           </ul>
         </nav>
         <a href="index.html"><img src="fotos/geel2.png" height="50px" class="right"></a>
       </div>
-     <div id="pica" style="display:none;"><img src="fotos/stenneke.jpg"></div>
-     <button onclick="document.getElementById('pica').style.display='block'">Klik hier om een fraudeur te ontmaskeren</button>
-     <button onclick="document.getElementById('pica').style.display='none'">Klik hier om een fraudeur te arresteren</button>
-     
-      <footer class="footer">
-        <p>&copy; Geel 2017</p>
+      <div class="starter-template">
+        <h1>Calculate</h1>
+      </div>
+      <div>
+        
+  <p>First Number</p>
+  <input type="text" class="form-control" id="eerste">
+   <p>actie</p>
+  <select id="keuze" class="form-control">
+    <option>x</option>
+    <option>%</option>
+    <option>+</option>
+    <option>-</option>
+  </select>
+
+
+  <p>Second Number</p>
+  <input type="text" class="form-control"  id="tweede">
+
+ <button id="knop" class="form-control"
+  style="margin-top: 15px;">calculate</button>
+
+ 
+  <p>Resultaat</p>
+  <input type="text" class="form-control"  id="uitkomst">
+
+      </div>
+
+    </div><!-- /.container -->
+
+  
+
+      <footer  class="footer">
+        <p>Geel 2017</p>
       </footer>
 
     </div> <!-- /container -->
